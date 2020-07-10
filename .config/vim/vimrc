@@ -182,7 +182,7 @@ augroup Reloadfile
 	au!
  	au BufWritePost *Xresources,*Xdefaults !xrdb % && dwmc xrdb
  	au BufWritePost *xbindkeysrc !xbindkeys --poll-rc -f %
- 	au BufWritePost *.md ! markdown_previewer % 
+ 	au BufWritePost *.md silent! ! markdown_previewer % 
 augroup end
 
 function! ReplaceTags()
