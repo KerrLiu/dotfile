@@ -1,4 +1,3 @@
-# dotfile
-Linux DotFiles
+# ArchLinux Dotfile
 
-> Do not use!
+> Do not use by others !
