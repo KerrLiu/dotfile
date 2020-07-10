@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec /opt/Typora/Typora "$@" & dwmc viewex 4

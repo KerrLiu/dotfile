@@ -1,0 +1,6 @@
+#!/bin/bash
+
+[ -f "$1" ] && hsetroot -cover "$1" && exit 
+
+ls -d /home/kerr/Pictures/Wallpapers/* | shuf -n 1 |xargs hsetroot -cover
+

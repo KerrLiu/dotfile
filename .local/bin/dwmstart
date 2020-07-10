@@ -1,0 +1,32 @@
+#!/bin/bash
+
+fcitx &
+xbindkeys -f $HOME/.config/xbindkeysrc &
+dunst &
+picom -b &
+# xcompmgr -c -C -t+1 -l+1 -r4.5 -o.55 &
+xss-lock --transfer-sleep-lock -- i3lock -i "/home/kerr/.local/share/image/lock_bg.png" &
+# xautolock -time 10 -locker i3lock -i "/home/kerr/.config/i3/lock_bg.png" &
+# xrandr --output eDP-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1 --off --output HDMI-1 --off --output HDMI-2 --primary --mode 1920x1080 --pos 0x0 --rotate normal
+# xrandr --output eDP1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP1 --off --output HDMI1 --off --output HDMI2 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output VIRTUAL1 --off &
+# xrandr --output eDP-1-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1-1 --off --output HDMI-1-1 --off --output HDMI-1-2 --primary --mode 1920x1080 --pos 0x0 --rotate normal &
+# xrandr --output eDP-1-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1-1 --off --output HDMI-1-2 --off &
+# xrandr --output eDP1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI1 --off --output HDMI2 --off --output VIRTUAL1 --off &
+# xrandr --output eDP-1-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1-1 --off --output HDMI-1-2 --off &
+# xrandr --output eDP-1-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1-1 --off --output HDMI-1-1 --off --output HDMI-1-2 --primary --mode 1920x1080 --pos 0x0 --rotate normal &
+xrandr --output eDP-1-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1-1 --primary --mode 1920x1080 --pos 0x0 --rotate normal --output HDMI-1-1 --off --output HDMI-1-2 --off &
+
+
+xset dpms 600
+xset r rate 300 50
+xinput set-prop 15 353 1
+setbg &
+
+dwmblocks &
+#if [ $XDG_SESSION_DESKTOP == i3 ]; then
+#		$HOME/.config/i3/polybar.sh &
+#else
+#	dwmblocks&
+#fi
+sleep 2
+xmodmap $HOME/.config/Xmodmap

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+[ "$(pgrep chrome)" ] && dwmc viewex 1 || google-chrome-stable

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+dmenu -b -l 20 < /home/kerr/Documents/txt/OxfordEnglishChineseDictionary
+
+

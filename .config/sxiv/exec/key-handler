@@ -1,0 +1,16 @@
+#!/bin/sh
+while read file
+do
+	case "$1" in
+		"C-d")
+			[ "$(printf "No\\nYes" | dmenu -i -p "Really delete the file?")" = "Yes" ] &&
+				notify-send -i $(readlink -f "$file") -t 3000 "deleted." && rm "$file" ;;
+		"C-r")
+			convert -rotate 90 "$file" "$file" ;;
+		"C-c")
+			xclip -selection clipboard -t 'image/png' "$file" &&
+				notify-send -i $(readlink -f "$file") -t 3000 "Copied to clipboard" ;;
+		"C-w")
+			setbg "$file" ;;
+	esac
+done

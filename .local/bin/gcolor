@@ -1,0 +1,6 @@
+#!/bin/bash
+
+value=$(zenity --color-selection --name=gcolor)
+
+[ "$value" ] && echo "$value" | xclip -selection clipboard
+

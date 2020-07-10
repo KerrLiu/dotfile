@@ -1,0 +1,20 @@
+#!/bin/bash
+
+bookname=$(book_path | dmenuw -b -l 20 -i -p "BookShelf:")
+
+[ ! "$bookname" ] && exit
+
+BOOKPATH="$HOME/Documents/pdf:$HOME/Documents/epub:$HOME/Documents/txt:$HOME/Documents/markdown/MyMarkDown:$HOME/Documents/markdown/GolangStudy:$HOME/Documents/markdown/guiides"
+
+IFS=:
+for p in $BOOKPATH
+do
+	bookpath="$p/$bookname"
+	[ -f "$bookpath" ] && break
+done
+
+case "${bookpath##*.}" in
+	pdf|PDF|epub|EPUB) zathura "$bookpath" ;;
+	txt|TXT|md|MD) markdown_previewer "$bookpath" & ;;
+	*) notify-send "The file type is dosn't open!" ;;
+esac

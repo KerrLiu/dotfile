@@ -1,0 +1,15 @@
+#!/bin/bash
+oldcpustat=/tmp/oldcpustat.txt
+[ ! -f "$oldcpustat" ] && echo "0 0" > $oldcpustat
+
+arrn=($(grep "cpu " /proc/stat))
+# user 1 nice 2 system 3 idle 4 iowait 5 irq 6 softirq 7
+nd=$[${arrn[1]} + ${arrn[2]} + ${arrn[3]} + ${arrn[4]} + ${arrn[5]} +${arrn[6]} + ${arrn[7]} ]
+arro=($(cat $oldcpustat))
+echo "$nd ${arrn[4]}" > $oldcpustat
+
+if [ $nd  != ${arro[0]} ]; then
+	echo "${arrn[4]} ${arro[1]} $nd ${arro[0]}" | awk '{printf("%.f%\n"), 100.0-($1-$2)/($3-$4)*100.00 }'
+else
+	echo "0%"
+fi

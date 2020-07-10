@@ -1,0 +1,11 @@
+#!/bin/sh
+
+logfile="$HOME/.cache/netlog"
+read -r rxprev txprev < "$logfile"
+
+rxcurrent="$(($(paste -d '+' /sys/class/net/*/statistics/rx_bytes)))"
+txcurrent="$(($(paste -d '+' /sys/class/net/*/statistics/tx_bytes)))"
+
+printf "    %skb/s   %skb/s \\n" "$(((txcurrent-txprev)/5120))" "$(((rxcurrent-rxprev)/5120))"
+
+echo "$rxcurrent $txcurrent" > $logfile

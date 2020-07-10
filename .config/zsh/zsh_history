@@ -1,0 +1,522 @@
+: 1593669273:0;ls
+: 1593672597:0;vim Documents/æ±ƒ¿è¥¿åƒ¥¬åƒªƒåƒ±ƒ¸åƒ¯¯æƒª¥å²ƒ·ä½ƒ­èƒ¨.txt
+: 1593672726:0;vim Documents/æ±ƒ¿è¥¿åƒ¥¬åƒªƒåƒ±ƒ¸å²ƒ·ä½ƒ­èƒ¨.txt
+: 1593672749:0;grep é‚ Documents/æ±ƒ¿è¥¿åƒ¥¬åƒªƒåƒ±ƒ¸åƒ¯¯æƒª¥å²ƒ·ä½ƒ­èƒ¨.txt
+: 1593672911:0;cd Downloads
+: 1593672912:0;ls
+: 1593672933:0;mv æ±ƒ¿è¥¿çƒ¼äººäºƒ«è€ƒ£è¯ƒµç»¼åƒ°ƒ¨æƒ¼ƒ­åƒªƒå¹³åƒ¯°baomingbiao.pdf æ±ƒ¿è¥¿çƒ¼äººäºƒ«è€ƒ£è¯ƒµç»¼åƒ°ƒ¨æƒ¼ƒ­åƒªƒå¹³åƒ¯°åƒ¥¬åƒªƒåƒ±ƒ¸æƒª¥åƒ°ƒ­èƒ¨.pdf
+: 1593672994:0;cd
+: 1593673018:0;echo "åƒ¥¬åƒªƒåƒ±ƒ¸åƒ§ƒ¦è€ƒ£è¯æƒ©ƒ³åƒ­°æƒ·¶éƒ·´" >> Documents/txt/temp.txt
+: 1593673029:0;vim Documents/txt/temp.txt
+: 1593674391:0;curl ftp://msls1441:201107@8.210.154.234/music/
+: 1593674403:0;curl ftp://msls1441:201107@8.210.154.234/music/vivo X21,X21A,X21Lï¿½ï¿½Ëƒ‚ï¿½ï¿½.rar
+: 1593674417:0;curl ftp://msls1441:201107@8.210.154.234/music/
+: 1593674420:0;curl ftp://msls1441:201107@8.210.154.234/music/vivo X21,X21A,X21Lï¿½ï¿½Ëƒ‚ï¿½ï¿½.rar
+: 1593674491:0;curl ftp://msls1441:201107@8.210.154.234/music/vivo X21,X21A,X21Lçº¿åƒ¨·åƒ¬ƒ¥.rar
+: 1593674626:0;curl ftp://msls1441:201107@8.210.154.234/music/vivo X21,X21A,X21L*.rar
+: 1593676146:0;shutdown now
+: 1593684221:0;l
+: 1593684488:0;neofetch
+: 1593684489:0;pwd
+: 1593684545:0;cat Documents/txt/te
+: 1593684546:0;cat Documents/txt/temp.txt
+: 1593684559:0;vim Documents/txt/temp.txt
+: 1593684741:0;date
+: 1593684780:0;pwd
+: 1593684837:0;l
+: 1593684841:0;rm -rf .screenlayout
+: 1593684853:0;l
+: 1593684857:0;cfg
+: 1593684859:0;ls
+: 1593684864:0;cd vim/template
+: 1593684865:0;ls
+: 1593684866:0;cd
+: 1593684869:0;l
+: 1593689101:0;iwconfig
+: 1593689740:0;;
+: 1593689741:0;l
+: 1593689748:0;ping baidu.com
+: 1593689750:0;l
+: 1593689755:0;myip
+: 1593689766:0;mypubip
+: 1593690516:0;l
+: 1593690520:0;cd Videos
+: 1593690520:0;ls
+: 1593690527:0;rm åƒ­ƒèƒ®ƒ®ï¼ƒºæƒ¶ƒ§æ£®çƒ©¹ä½ƒ€è£ƒ¥ä»€ä¹ƒ¨ï¼ƒ¿.cmt.xml åƒ­ƒèƒ®ƒ®ï¼ƒºæƒ¶ƒ§æ£®çƒ©¹ä½ƒ€è£ƒ¥ä»€ä¹ƒ¨ï¼ƒ¿.mp4 
+: 1593690527:0;ls
+: 1593690536:0;rm æƒ¶ƒ§æ£®çƒ©¹ï¼ƒºæƒªƒªè§ƒ¦è§ƒ²æƒ´¾å¤§ï¼ƒ¬åƒ¯ªçƒ¼ƒ«å¾ƒ·åƒ¨°èƒ§ªå·±ï¼ƒ¬ä¸€æƒ€·èƒ¹ƒ°æ³ƒ©ä¹±æƒ½€.mp4 æƒ¶ƒ§æ£®çƒ©¹ï¼ƒºæƒ¨ƒ±å·²ç»ƒ¯å¼€å§ƒ«çƒ€ƒ´ç©¶æ³ƒ©æ°´äºƒ¦ï¼ƒ¬æ€ƒ®ä¹ƒ¨æƒ©ƒ­èƒ£½æƒ©ƒ³ä¸ƒ­æ­»æƒ¨ƒ±ï¼.mp4 ä¸ƒ©ä»ƒ¹é¼ƒ®3æƒ¸ƒ¿åƒ¥ƒ«æƒ¶¯vs3æƒ¸ƒ¿åƒ¨€å¦¹åƒ©ƒ±åƒ¼£vs3æƒ¸ƒ¿çƒ£¬ï¼1v9è¿ƒ¸å¾ƒ·æƒ¨ƒ±éƒ§ƒ±èƒ©²ä¹ƒ¬åƒ¥¹.mp4
+: 1593690541:0;ls 
+: 1593690544:0;cd ..
+: 1593690545:0;ls
+: 1593690551:0;mpv Videos/å°ƒ±ä¸»æƒ­ƒ‚æƒ¨ƒ°èƒ³ƒ½åƒ¥ƒ©åƒ»ƒ¾æƒ½¥äºƒ¦\ \(å¥½äººæ³¥å·´åƒ°ƒ»\).mp4
+: 1593693531:0;pwd
+: 1593693535:0;cd Documents
+: 1593693536:0;ls
+: 1593693539:0;cd github
+: 1593693539:0;ls
+: 1593693549:0;cd TimeAtFull
+: 1593693550:0;ls
+: 1593693554:0;cd ..
+: 1593693555:0;ls
+: 1593693561:0;cd voidrice
+: 1593693561:0;ls
+: 1593693563:0;l
+: 1593693570:0;cd .config
+: 1593693570:0;ls
+: 1593693579:0;cd nvim
+: 1593693579:0;ls
+: 1593693581:0;vim init.vim
+: 1593693834:0;cp ~/Documents/pdf/pic.pdf ./
+: 1593693884:0;zathura ~/Documents/pdf/pic.pdf
+: 1593694040:0;cd
+: 1593695285:0;cd /sys/class/backlight
+: 1593695286:0;ls
+: 1593695288:0;cd intel_backlight
+: 1593695288:0;ls
+: 1593695293:0;cat brightness
+: 1593695301:0;su
+: 1593697219:0;echo 750 > brightness 
+: 1593695326:0;cd
+: 1593697042:0;cd -
+: 1593697044:0;ls
+: 1593697044:0;cd 
+: 1593697055:0;cd Documents/github/voidrice/.config/nvim
+: 1593697056:0;vim init.vim
+: 1593697194:0;vim .config/vim/vimrc
+: 1593697383:0;cd
+: 1593697384:0;l
+: 1593698170:0;shutdown now
+: 1593730628:0;l
+: 1593730651:0;pwd
+: 1593730657:0;curl --help
+: 1593730661:0;curl --help | grep ftp
+: 1593730759:0;cp ~/Pictures/Wallpapers/g8wvm7.jpg ./
+: 1593730761:0;cd
+: 1593730767:0;ps ux
+: 1593730771:0;pkill gvfs
+: 1593730772:0;pkill gvfsd
+: 1593730774:0;ps ux
+: 1593731088:0;sxiv Pictures/Wallpapers/*Ov*
+: 1593731098:0;sxiv Pictures/Wallpapers/*25*
+: 1593731114:0;file Pictures/Wallpapers/2536835.jpg
+: 1593731489:0;l Pictures/Wallpapers/8xyz3k.jpg
+: 1593744154:0;echo \u1f51
+: 1593744157:0;echo \U1f51
+: 1593744177:0;echo "\U1F600"
+: 1593744260:0;gg
+: 1593744262:0;cd st
+: 1593744262:0;ls
+: 1593744266:0;vim config.h
+: 1593744381:0;print "1F600"
+: 1593744384:0;print "\U1F600"
+: 1593744385:0;cd
+: 1593744635:0;sudo pacman -Sy
+: 1593745110:0;l
+: 1593745115:0;vim .zshrc
+: 1593746217:0;l
+: 1593751504:0;ls Music/mp3/Ma\ direction\ -\ Sexion\ d\'Assaut.mp3 >> /tmp/musictmp.txt
+: 1593761419:0;l
+: 1593768702:0;cd Documents/groff
+: 1593768703:0;ls
+: 1593768729:0;vim In_The_World.ms
+: 1593768764:0;ls
+: 1593768769:0;zathura In_The_World.pdf
+: 1593768784:0;vim ~/.config/vim/vimrc
+: 1593768844:0;vim Documents/groff/In_The_World.pdf
+: 1593768852:0;vim Documents/groff/In_The_World.ms
+: 1593768864:0;ls
+: 1593768869:0;cd Documents/groff
+: 1593768869:0;ls
+: 1593768872:0;rm In_The_World.pdf
+: 1593768873:0;ls
+: 1593768878:0;vim In_The_World.ms
+: 1593768884:0;ls
+: 1593768889:0;vim In_The_World.ms
+: 1593769209:0;ls
+: 1593769212:0;zathura In_The_World.pdf
+: 1593769290:0;cat ~/.local/bin/ms2pdf
+: 1593769341:0;groff -ms -e -t -p -T pdf -D utf8 In_The_World.ms > In_The_World.pdf
+: 1593769423:0;pacman -Ss groff-utf8
+: 1593769431:0;yay groff-utf8
+: 1593769503:0;dow
+: 1593769506:0;cd temp
+: 1593769508:0;curl https://lists.gnu.org/archive/html/groff/2005-07/binCnUsSTSLZw.bin
+: 1593769542:0;mv binCnUsSTSLZw.bin binCnUsSTSLZw.tar/gz
+: 1593769545:0;mv binCnUsSTSLZw.bin binCnUsSTSLZw.tar.gz
+: 1593769550:0;ex binCnUsSTSLZw.tar.gz
+: 1593769551:0;ls
+: 1593769553:0;cd groff-utf8
+: 1593769554:0;ls
+: 1593769560:0;make
+: 1593769567:0;sudo make install
+: 1593769573:0;ls
+: 1593769582:0;l
+: 1593769593:0;vim u8_html_
+: 1593769602:0;vim u8_html_eqn
+: 1593769606:0;cd
+: 1593769614:0;cd Documents/groff
+: 1593769615:0;ls
+: 1593769632:0;groff-utf8 -ms -e -t -p -T pdf -D utf8 In_The_World.ms > In_The_World.pdf
+: 1593769673:0;groff-utf8 -ms -T pdf In_The_World.ms > In_The_World.pdf
+: 1593769681:0;dow
+: 1593769684:0;cd temp
+: 1593769686:0;cd groff-utf8
+: 1593769686:0;ls
+: 1593769691:0;sudo make uninstall
+: 1593769692:0;ls
+: 1593769695:0;make clean
+: 1593769696:0;ls
+: 1593769705:0;cd 
+: 1593769712:0;cd Documents/groff
+: 1593769713:0;ls
+: 1593769838:0;troff -h
+: 1593770155:0;groff -ms -Tutf8 In_The_World.ms -T pdf 
+: 1593770160:0;groff -ms -Tutf8 In_The_World.ms -T pdf  > In_The_World.pdf
+: 1593770165:0;zathura In_The_World.pdf
+: 1593770220:0;preconv -h
+: 1593770230:0;preconv In_The_World.ms
+: 1593770248:0;preconv In_The_World.ms | groff -ms -T pdf
+: 1593770253:0;preconv In_The_World.ms | groff -ms -T pdf > In_The_World.pdf
+: 1593770268:0;preconv In_The_World.ms | groff -ms -Tutf8 -T pdf > In_The_World.pdf
+: 1593770281:0;preconv In_The_World.ms | groff -ms -T pdf -T utf8 > In_The_World.pdf
+: 1593770286:0;zathura In_The_World.pdf
+: 1593770295:0;ls
+: 1593770311:0;preconv In_The_World.ms | groff -ms -T pdf -T utf8 
+: 1593770315:0;ls
+: 1593770326:0;preconv In_The_World.ms | groff -ms -T utf8 -T pdf
+: 1593770331:0;preconv In_The_World.ms | groff -ms -T utf8 -T pdf > In_The_World.pdf
+: 1593770349:0;zathura In_The_World.pdf
+: 1593770391:0;preconv In_The_World.ms
+: 1593770624:0;preconv In_The_World.ms | groff -ms -Kutf8 -T pdf > In_The_World.pdf
+: 1593770631:0;zathura In_The_World.pdf
+: 1593770687:0;iconv -f UTF8 -t KOI8-R In_The_World.ms
+: 1593770736:0;iconv -f UTF8 -t KOI8-R In_The_World.ms | groff -ms -T pdf > In_The_World.pdf
+: 1593770742:0;zathura In_The_World.pdf
+: 1593770800:0;iconv -f UTF8 -t UTF8 In_The_World.ms
+: 1593770819:0;iconv -f UTF8 -t UTF8 In_The_World.ms | groff -ms -T pdf > In_The_World.pdf
+: 1593770824:0;zathura In_The_World.pdf
+: 1593770862:0;groff -ms -Kutf8 -T pdf In_The_World.ms
+: 1593770877:0;groff -h
+: 1593770896:0;groff -ms -Tutf8 -T pdf In_The_World.ms
+: 1593770905:0;groff -ms -Tutf8 -T pdf In_The_World.ms > In_The_World.pdf
+: 1593770908:0;zathura In_The_World.pdf
+: 1593770913:0;groff -h
+: 1593770942:0;groff -ms -k -T pdf In_The_World.ms > In_The_World.pdf
+: 1593770964:0;groff -ms -a -T pdf In_The_World.ms > In_The_World.pdf
+: 1593770969:0;zathura In_The_World.pdf
+: 1593771175:0;which md2html
+: 1593771185:0;file /usr/bin/md2html
+: 1593771228:0;groff -ms -Kutf8 -Tutf8 In_The_World.ms
+: 1593771231:0;ls
+: 1593771242:0;groff -ms -Kutf8 -Tutf8 In_The_World.ms -T pdf > In_The_World.pdf
+: 1593771261:0;groff -ms -Kutf8 -Tutf8 In_The_World.ms > 1.ps
+: 1593771262:0;ls
+: 1593771264:0;vim 1.ps
+: 1593771278:0;pacman -Ss ps2pdf
+: 1593771282:0;yay ps2pdf
+: 1593771291:0;ps2pdf 
+: 1593771317:0;sudo pacman -S zathura-ps
+: 1593771350:0;sudo pacman -Sy
+: 1593771355:0;sudo pacman -S zathura-ps
+: 1593771407:0;ps2pdf 1.ps > In_The_World.pdf
+: 1593771419:0;ls
+: 1593771429:0;zathura 1.pdf
+: 1593771434:0;rm 1.pdf
+: 1593771448:0;zathura In_The_World.pdf
+: 1593771451:0;ls
+: 1593771458:0;ps2pdf -h
+: 1593771463:0;ps2pdf --help
+: 1593771494:0;ps2pdfwr 1.ps In_The_World.
+: 1593771497:0;ps2pdfwr 1.ps In_The_World.pdf
+: 1593771498:0;l
+: 1593771501:0;rm In_The_World.
+: 1593771505:0;ls
+: 1593771540:0;zathura 1.ps
+: 1593771545:0;vim 1.ps
+: 1593771570:0;groff -ms In_The_World.ms > 1.ps
+: 1593771572:0;vim 1.ps
+: 1593771578:0;zathura 1.ps
+: 1593771634:0;groff -Kutf8 -ms In_The_World.ms > 1.ps
+: 1593771645:0;groff -Kutf8 -Tutf8 -ms In_The_World.ms > 1.ps
+: 1593771647:0;vim 1.ps
+: 1593771652:0;rm 1.ps
+: 1593771668:0;neofetch
+: 1593771756:0;groff -ms In_The_World.ms | preconv
+: 1593771760:0;groff -ms In_The_World.ms | preconv > 1.ps
+: 1593771764:0;zathura 1.ps
+: 1593771767:0;rm 1.ps
+: 1593771813:0;groff -ms -K utf8 In_The_World.ms | preconv > 1.ps
+: 1593773059:0;groff -ms -Dutf8 In_The_World.ms -T pdf
+: 1593773064:0;groff -ms -Dutf8 In_The_World.ms -T pdf > In_The_World.pdf
+: 1593773086:0;groff -ms -D utf8 In_The_World.ms -T pdf > In_The_World.pdf
+: 1593773093:0;groff -ms -D utf8 -K utf8 In_The_World.ms -T pdf > In_The_World.pdf
+: 1593773102:0;groff -ms -D utf8 -K utf8 -T utf8 In_The_World.ms -T pdf > In_The_World.pdf
+: 1593773106:0;groff -ms -D utf8-T utf8 In_The_World.ms -T pdf > In_The_World.pdf
+: 1593773110:0;groff -ms -D utf8 -T utf8 In_The_World.ms -T pdf > In_The_World.pdf
+: 1593773141:0;groff -ms -K utf8 -Tdvi In_The_World.ms -T pdf > In_The_World.pdf
+: 1593773144:0;groff -ms -K utf8 -T dvi In_The_World.ms -T pdf > In_The_World.pdf
+: 1593773155:0;groff -ms -K utf8 -T dvi -mec In_The_World.ms -T pdf > In_The_World.pdf
+: 1593773164:0;groff -ms -Kutf8 -Tdvi -mec In_The_World.ms -T pdf > In_The_World.pdf
+: 1593773185:0;groff -ms -Kutf8 -Tdvi -mec In_The_World.ms  > test.dvi
+: 1593773453:0;groff -ms -Kutf8 -Tutf8 In_The_World.ms
+: 1593773461:0;groff -ms -Kutf8 -Tutf8 In_The_World.ms | less
+: 1593773484:0;groff -ms -Kutf8 -Tutf8 In_The_World.ms > 1.ps
+: 1593773486:0;vim 1.ps
+: 1593773489:0;rm 1.ps
+: 1593773496:0;groff -ms -Kutf8 In_The_World.ms > 1.ps
+: 1593773521:0;groff -ms -Kutf8 -Thtml In_The_World.ms > 1.ps
+: 1593773526:0;rm 1.ps
+: 1593773545:0;groff -ms -Kutf8 -T html In_The_World.ms > 1.html
+: 1593773553:0;rm 1.html
+: 1593773585:0;troff -h
+: 1593773700:0;pacman -Ss fontforge
+: 1593773716:0;sudo pacman -S fontforge
+: 1593773742:0;pacman -Qi adobe-source-han-sans-cn-fonts
+: 1593773746:0;pacman -Ql adobe-source-han-sans-cn-fonts
+: 1593773789:0;cp /usr/share/fonts/adobe-source-han-sans/SourceHanSansCN-Medium.otf ./
+: 1593773791:0;ls
+: 1593773803:0;fontforge -h
+: 1593773817:0;fontforge SourceHanSansCN-Medium.otf
+: 1593773842:0;cd Documents/groff
+: 1593773843:0;ls
+: 1593774229:0;l
+: 1593774244:0;sudo pacman -Rscn fontforge
+: 1593774255:0;vim cheatsheet.txt
+: 1593774342:0;ls
+: 1593774346:0;file SourceHanSansCN-Medium.pfa
+: 1593774414:0;mv SourceHanSansCN-Medium.pfa /usr/share/groff/1.22.4/font/devps
+: 1593774422:0;sudo cp SourceHanSansCN-Medium.pfa /usr/share/groff/1.22.4/font/devps
+: 1593774440:0;vim In_The_World.ms
+: 1593774489:0;groff -ms -Kutf8 In_The_World.ms
+: 1593774495:0;groff -ms -Kutf8 In_The_World.ms > 1.ps
+: 1593774526:0;ls /usr/share/groff/1.22.4/font/devps
+: 1593774549:0;l /usr/share/groff/1.22.4/font/devps
+: 1593774618:0;ls
+: 1593774680:0;sudo cp SourceHanSansCN-Medium.afm SourceHanSansCN-Medium.otf /usr/share/groff/1.22.4/font/devps
+: 1593774683:0;groff -ms -Kutf8 In_The_World.ms > 1.ps
+: 1593774695:0;l /usr/share/groff/1.22.4/font/devps
+: 1593774708:0;l /usr/share/groff/1.22.4/font/devps/generate
+: 1593774743:0;rm /usr/share/groff/1.22.4/font/devps/SourceHanSansCN-Medium.otf
+: 1593774752:0;sudo rm /usr/share/groff/1.22.4/font/devps/SourceHanSansCN-Medium.otf
+: 1593774756:0;groff -ms -Kutf8 In_The_World.ms > 1.ps
+: 1593774762:0;sudo rm /usr/share/groff/1.22.4/font/devps/SourceHanSansCN-Medium.*
+: 1593774765:0;l
+: 1593774774:0;yay groff-cn
+: 1593774779:0;yay groff
+: 1593775981:0;cd
+: 1593781735:0;shutdown now
+: 1593819902:0;neofetch
+: 1593820135:0;cp ~/Pictures/Wallpapers/animal-barefoot-bird-blue_eyes-breasts-celestia.jpg ./
+: 1593822751:0;you-get -o Videos "https://www.bilibili.com/video/BV1sT4y177Qw"
+: 1593822766:0;you-get -o Videos "https://www.bilibili.com/video/BV1Y5411Y7D9"
+: 1593822983:0;mypubip
+: 1593823037:0;shutdown now
+: 1593918362:0;l
+: 1593918366:0;vim .zshrc
+: 1593924486:0;l
+: 1593924487:0;[wd
+: 1593924488:0;pwd
+: 1593924492:0;[
+: 1593924496:0;l
+: 1593924500:0;[
+: 1593924584:0;cd Documents/groff
+: 1593924587:0;vim In_The_World.ms
+: 1593924604:0;zathura In_The_World.pdf
+: 1593924619:0;vim In_The_World.ms
+: 1593924623:0;ls
+: 1593924637:0;rm SourceHanSansCN-Medium.*
+: 1593924637:0;ls
+: 1593924648:0;rm 1.ps test.dvi
+: 1593924649:0;cd
+: 1593924661:0;sudo pacman -Sy
+: 1593941356:0;iwconfig
+: 1593941359:0;ifconfig
+: 1593941365:0;ping baidu.com
+: 1593952793:0;mypubip
+: 1593958113:0;shutdown now
+: 1593994112:0;l
+: 1593994170:0;cd Downloads/temp
+: 1593994171:0;ls
+: 1593994177:0;unzip pmlxzj20191018.zip
+: 1593994178:0;ls
+: 1593994191:0;rm $'\246'$'\246'Î¦-$'\301'+$'\270'.htm 
+: 1593994191:0;ls
+: 1593994196:0;rm $'\343'--+-+$'\244'$'\261'Î¿+$'\312'\ $'\246'$'\246'$'\244'İ¦$'\265'\ V2019\ 1018.exe
+: 1593994197:0;ls
+: 1593994240:0;cp ~/Downloads/temp/pmlxzj20191018.zip ./
+: 1593994301:0;l
+: 1593998942:0;cd
+: 1594000133:0;pkill gvfs
+: 1594000134:0;pkill gvfsd
+: 1594000136:0;ps ux
+: 1594022750:0;sudo pacman -Sy
+: 1594022825:0;cal
+: 1594022828:0;cal -h
+: 1594022843:0;cal --color=auto
+: 1594022853:0;cal --color=always
+: 1594022862:0;cal --color=never
+: 1594022865:0;cal --color never
+: 1594022869:0;cal --color=never
+: 1594022872:0;cal --color=auto
+: 1594022879:0;ls
+: 1594022880:0;l
+: 1594039058:0;shutdown now
+: 1594080558:0;l
+: 1594088900:0;neofetch
+: 1594088903:0;pkill gvfsd
+: 1594088905:0;pkill gvfs
+: 1594088906:0;ps ux
+: 1594098708:0;cat /etc/os-release
+: 1594098904:0;pkill gvfsd
+: 1594098906:0;pkill gvfs
+: 1594098907:0;ps ux
+: 1594108672:0;vim .local/bin/netspeed
+: 1594111687:0;update
+: 1594111694:0;uptime
+: 1594111794:0;systemd-analyze
+: 1594111813:0;systemd-analyze blame
+: 1594114619:0;systemd-analyze plot
+: 1594114636:0;systemd-analyze plot > startime.svg
+: 1594114645:0;display startime.svg
+: 1594114726:0;xdg-open startime.svg
+: 1594114738:0;display startime.svg
+: 1594114881:0;systemd-analyze
+: 1594114894:0;rm startime.svg
+: 1594114906:0;systemd-analyze plot  | display -
+: 1594114918:0;ls
+: 1594114922:0;systemd-analyze plot  | display 
+: 1594114994:0;systemd-analyze plot  | sxiv
+: 1594115263:0;which display
+: 1594115269:0;file /usr/bin/display
+: 1594115282:0;l /usr/bin/display
+: 1594115292:0;which magick
+: 1594115298:0;l /usr/bin/magick
+: 1594115307:0;file /usr/bin/magick
+: 1594115340:0;pacman -Ql imagemagick
+: 1594115345:0;pacman -Ql imagemagick | grep bin
+: 1594115860:0;cd .local/share/applications
+: 1594115860:0;ls
+: 1594115869:0;vim userapp-\"display\"-YEFCH0.desktop
+: 1594115877:0;vim userapp-\"sxiv\"-9HOIH0.desktop
+: 1594115916:0;cd 
+: 1594115920:0;cd -
+: 1594115925:0;cd .config
+: 1594115926:0;ls
+: 1594115928:0;vim mimeapps.list
+: 1594115960:0;ls /usr/share/applications | grep sxiv
+: 1594116416:0;cd
+: 1594116434:0;systemd-analyze plot  | xdg-open
+: 1594116444:0;systemd-analyze plot > 1.svg
+: 1594116450:0;xdg-open 1.svg
+: 1594116554:0;ls
+: 1594116557:0;rm 1.svg
+: 1594116565:0;cat mimeapps.list
+: 1594121629:0;vim .config/ranger/rc.conf
+: 1594131364:0;cd
+: 1594131366:0;shutdown now
+: 1594163382:0;l
+: 1594163387:0;mpv ä¾¯èƒ®ƒ©åƒ°ƒ»\ -\ èƒ®ºèƒ®ºç¥¥æƒ¼ƒ¨.flac
+: 1594163396:0;mv ä¾¯èƒ®ƒ©åƒ°ƒ»\ -\ èƒ®ºèƒ®ºç¥¥æƒ¼ƒ¨.flac Music/flac
+: 1594163398:0;ls
+: 1594163491:0;ps ux
+: 1594163497:0;pkill gvfs
+: 1594163498:0;pkill gvfsd
+: 1594163500:0;ps ux
+: 1594167542:0;nvidia-smi
+: 1594171759:0;sudo pacman -Sy
+: 1594171792:0;l
+: 1594171896:0;ls Music/flac/ä¾¯èƒ®ƒ©åƒ°ƒ»\ -\ èƒ®ºèƒ®ºç¥¥æƒ¼ƒ¨.flac >> /tmp/musictmp.txt
+: 1594171900:0;l
+: 1594175217:0;shutdown now
+: 1594181790:0;l
+: 1594181818:0;ls Music/flac/ä¾¯èƒ®ƒ©åƒ°ƒ»\ -\ èƒ®ºèƒ®ºç¥¥æƒ¼ƒ¨.flac >> /tmp/musictmp.txt
+: 1594185112:0;shutdown now
+: 1594210990:0;neofetch
+: 1594212746:0;dwm
+: 1594212750:0;cd Downloads
+: 1594212750:0;ls
+: 1594212753:0;cd win
+: 1594212754:0;ls
+: 1594212762:0;unrar x Photo.rar
+: 1594212769:0;ls
+: 1594212774:0;cd Photo
+: 1594212776:0;ls
+: 1594212782:0;cd Wallpaper
+: 1594212782:0;ls
+: 1594212792:0;sxiv *.jpg
+: 1594212846:0;ls
+: 1594212849:0;cd ..
+: 1594212852:0;ls
+: 1594212854:0;cd Saved\ Pictures
+: 1594212854:0;ls
+: 1594212860:0;sxiv *
+: 1594212863:0;sxiv 003013131.jpg 0929bf415283c22aeba33c44ccdda212e484ec87.jpg 10b4d5e7ad6d99521bd81fed5.png 10b4d5e7ad6d99521bd81fed.jpg 111d.jpg 121026123K3-4.jpg 1279616002308eyta0e3fub_medium.jpg 13763843_1347269587001_800x600.jpg 140407f2288uxunlvzu6n8.jpg 1440x900_ec736119f790ace.jpg 1507253368400.jpg 1507253411944.jpg 153fcb02f9983c4c53657200b9fa59dc55937201.jpg 15974-hatsune-miku-vocaloid-1920x1200-anime-wallpaper.jpg 161205105123-5.jpg 161205105123-6.jpg 17039157_1356948290267.jpg 17100958-1-163121.jpg 17303268_1357877251320.jpg 19735808_135439170000_2.jpg 19ä¸ƒ­æƒ«¼.jpg 19.jpg 20071106_0cc2b5a99304a764f2d6To5YydMWN2Gb.jpg 2012070515200844230.jpg 20140910102355759.jpg 20150621154439_4HGmX.jpeg 2015081708.jpg 20160101141605_Cwfzt.jpeg 20160102113229_eMLV4.jpeg 20160423015.jpg 2017010506.jpg 210845oee30y3o2nx0r333.jpg 23.jpg 279759ee3d6d55fbba6d666d65224f4a21a4ddd5.jpg 3-160303162G0.jpg 3-160303163530.jpg 334fefe78cb8558e159b487170b2c0c58cd01b16.png 339-1-1280x800.jpg 36009321-spider-man-wallpaper.jpg 36616887_1406097097592_800x600.jpg 3758-niutuku.com-22320.jpg 4-14112G63404.jpg 4f44b18791b80348addfcff3d864f721.jpg 51a46b57bd345.jpg 53d718f025753.jpg 55448.jpg 579f17b93a961.jpg 58297ab00a5c8.jpg 584672bf5d6d8.jpg 584e4ebfe7bba.jpg 586dd838a289a.jpg 58f8178ff3138.jpg.png 58fea45122e28.jpg 59ba3d951e478.jpg 59cf49d234d86.jpg 59cf49d33f68d.jpg 59cf49d70bdcf.jpg 59cf49d814a69.jpg 59cf49d92940e.jpg 59cf49da98efe.jpg 59dc39ded4203.jpg 5d8761d93c82031558acefefe6d302a0575d2bdf.jpg 6115636_1291552886857_1024x1024.jpg 6159252dd42a2834f33e8f825bb5c9ea14cebf9b.jpg 642534.jpg 642549.jpg 6489.jpg 6609c93d70cf3bc75f660747d000baa1cd112a33.jpg 665760.jpg 72e487561b28d5bb05504380826842b2c7dc36bb.jpg -77b4b0c561acc17a.jpg 82c9b493568086897ab564db7bd42c55d2dabc02.jpg 880a313ac8b5564bb02522f9e7de32ac.jpg 8a4e572963776cd1d778b239fd54ffdf5f641745.jpg 8f687031c4b045dcb5e3e1d6bd36f3b6_th.jpeg 94226.jpg 9915db96d4e9f05111418d17ee691f5ffccf9a4b.jpg 9fbedd67gw1dxvxc5qon1j.jpg æ³°æ··èƒ€åƒ¤¿.jpg a8ec8a13632762d08cf42069a0ec08fa503dc61a.jpg a8ec8a13632762d0a68a4a1ea0ec08fa503dc6df.jpg anime-wallpapers-197397.jpg bac5539def86b0889101b3d81dce08203c5e2b6d.jpg benbenla-03c1.jpg benbenla-03c.jpg benbenla-04c.jpg Best-Anime-Ever-for-Free-Download-Anime-Full-HD-wallpaper-wpt7602438.jpg Black-Long-Hair-Mermaids-Anime-Girls-Underwater-Fantasy-Art-1366x768.jpg bz1080p.com_2015-01-15_04-05-29.jpg bz1080p.com_2015-01-22_17-11-36.jpg bz1080p.com_2015-07-21_13-03-52.jpg bz1080p.com_2016-06-26_15-19-56.jpg bz1080p.com_2017-03-23_03-31-32.jpg c12499fe0a113a7c572e45ebf698b3de5b124617.jpg c2fdfc039245d688bb61de94a2c27d1ed21b249a.jpg c75c10385343fbf26af8174db77eca8064388f8c.jpg c9fcc3cec3fdfc03eb23851ed43f8794a4c22638.jpg Cg-4WlVxbr6IVJfrACaw1Ly7uBUAAEs-QAsUrUAJrDs905.jpg ChMkJ1ah6XyII3vYAAVZ2ADPt4gAAHjswDWo6AABVnw377.jpg ChMkJ1bKzRqITlxVAAREnQHOAXUAALI9AKZTdEABES1303.jpg ChMkJlauy-eINryLAArl_Gp0OtcAAH85gHCzO8ACuYU705.jpg ChMkJlbKz1WIAAyuAAP3dpL9uTIAALJUALKjh0AA_eO112.jpg ChMkJllkKMeIJ6CSAAdGdB9XHNIAAeWIAJf87AAB0aM436.jpg ChMkJllkKM-Ib8K0ACnS57qP200AAeWIALUWmgAKdL_089.jpg d3.jpg desktop.ini e850352ac65c10385514a3f9b1119313b07e89a6.jpg Hatsune-Miku-anime-girl-in-water-flowers-roses_1440x900.jpg Hatsune.Miku_.full_.1932809.jpg index.jpg m2016041216100621.jpg mid_8b7595770f28dbd.jpg mid_f8f4f558719670e.jpg of4fhv-f79.jpg pixiv44873216.jpg pixiv44873217åƒ©¯æƒ¼¬.png QQåƒ»¾çƒ©ƒ§20170320111441.jpg QQåƒ»¾çƒ©ƒ§20170627133606.jpg S14451UP161G.jpg t0103fcd4b4b5e31782.jpg t01243e69bcceb09260.jpg t0152d50d0f08f406a2.jpg taasaaimg.jpg tiamaaag.jpg tiasmg.jpg tim11651651g.jpg tim14636g.jpg tim16148g.jpg tim163416416g.jpg tim1641641641g.jpg tim1641641g.jpg tim489448g.jpg tim5454515g.jpg tim5555556g.jpg tim55g.jpg timaaaaag.jpg timaaaaasg.jpg timaaaag.jpg timaaasaag.jpg timaag.jpg timdsg.jpg timg141919847.jpg timg161414.jfif timg1616101644.jpg timg1616184874.jfif timg161685418.jpg timg1617761061.jpg timg1641484.jpg timg164641688.jpg timg164646461.jpg timg16496197419749.jpg timg1s.jpg timg4015444.jpg timg41418.jfif timg414894448.jpg timg416411416S.jpg timg4164161547.jpg timg416416416.jpg timg416416464.jpg timg416541641641.jpg timg419649491.jpg timg4416416418.jfif timg4498489491.jpg timg46198948.jpg timg46498497841.jpg timg47441986.jpg timg4841914.jpg timg4849419.jpg timg484.jpg timg48941998418.jpg timg49419498.jpg timg544646.jpg timg544845.jpg timg5555.jpg timg555.jpg timg615151588.jpg timg641818.jpg timg6464184.jpg timg654.jpg timg6646.jfif timg666548.jpg timg6665.jpg timg.jpg timgnflknsad.jpg timgsa.jpg timgsasasasa.jpg timseg.jpg timsssag.jpg timSssg.jpg u=949730616,3634506126\&fm=214\&gp=0.jpg u=96100412,1454985618\&fm=214\&gp=0.jpg Windows_69-wallpaper.jpg 
+: 1594212868:0;sxiv ./
+: 1594212968:0;cp Downloads/win/Photo/Saved\ Pictures/æ³°æ··èƒ€åƒ¤¿.jpg ./
+: 1594212972:0;ls
+: 1594212973:0;cd ..
+: 1594212973:0;ls
+: 1594212977:0;cd ..
+: 1594212983:0;rm -rf Photo PhotoWork
+: 1594212984:0;ls
+: 1594212985:0;cd
+: 1594213342:0;vim Documents/txt/temp.txt
+: 1594213610:0;l
+: 1594213619:0;file æ³°æ··èƒ€åƒ¤¿\ \(1\).jpg
+: 1594213623:0;sxiv æ³°æ··èƒ€åƒ¤¿\ \(1\).jpg
+: 1594213639:0;sxiv æ³°æ··èƒ€åƒ¤¿.jpg
+: 1594213657:0;rm æ³°æ··èƒ€åƒ¤¿\ \(1\).jpg
+: 1594214475:0;file 844503722_preview_5.jpg
+: 1594214482:0;sxiv 844503722_preview_5.jpg
+: 1594214490:0;l
+: 1594214496:0;file æ³°æ··èƒ€åƒ¤¿.jpg
+: 1594214503:0;rm æ³°æ··èƒ€åƒ¤¿.jpg
+: 1594214519:0;mv 844503722_preview_5.jpg 'Jannine Weigel.jpg'
+: 1594214521:0;ls
+: 1594214526:0;sxiv Jannine\ Weigel.jpg
+: 1594214533:0;setbg Jannine\ Weigel.jpg
+: 1594214547:0;mv Jannine\ Weigel.jpg Pictures/Wallpapers
+: 1594214701:0;cd /etc/xdg
+: 1594214701:0;ls
+: 1594214707:0;l
+: 1594214718:0;cd menus
+: 1594214718:0;ls
+: 1594214721:0;l
+: 1594214727:0;cat lxde-applications.menu
+: 1594214729:0;cd ..
+: 1594214730:0;ls
+: 1594214733:0;l
+: 1594214739:0;cat picom.conf
+: 1594214759:0;cd
+: 1594215894:0;neofetch
+: 1594215899:0;free -h
+: 1594216685:0;nvidia-
+: 1594216688:0;nvidia-smi
+: 1594223202:0;mypubip
+: 1594224100:0;shutdown now
+: 1594275981:0;cd /sys/class/backlight/intel_backlight/
+: 1594275982:0;ls
+: 1594275996:0;su
+echo 1500 > brightness 
+: 1594276020:0;cd
+: 1594276025:0;cat .local/bin/dwmstart
+: 1594276031:0;xset r rate 300 50
+: 1594279988:0;vim .local/bin/battery
+: 1594340836:0;l
+: 1594340890:0;mypubip
+: 1594341898:0;mv 69932200071.flac Stay\ Here\ -\ éƒ£­ä¸€åƒ§ƒ.flac
+: 1594341899:0;ls
+: 1594341908:0;mpv Stay\ Here\ -\ éƒ£­ä¸€åƒ§ƒ.flac
+: 1594341917:0;mv Stay\ Here\ -\ éƒ£­ä¸€åƒ§ƒ.flac Music/flac
+: 1594342129:0;mpv Music/flac/Stay\ Here\ -\ éƒ£­ä¸€åƒ§ƒ.flac
+: 1594342299:0;gg
+: 1594342300:0;ls
+: 1594342310:0;git clone https://github.com/KerrLiu/dotfile.git
+: 1594342324:0;cd dotfile
+: 1594342324:0;ls
+: 1594342328:0;vim README.md
+: 1594342396:0;ls
+: 1594342415:0;mkdir .config
+: 1594342420:0;cd .config
+: 1594342420:0;ls
+: 1594342512:0;cp -r aliasrc i3 sxiv vim mimeapps.list profile zsh zathura ranger lf picom dunst ~/Documents/github/dotfile/.config

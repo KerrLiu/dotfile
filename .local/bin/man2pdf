@@ -1,0 +1,5 @@
+#!/bin/bash
+
+manname=$(man -k . | dmenu -b -l 15 | awk '{print $1}')
+[ "$manname" ] && man -Tpdf "$manname" | zathura - >> /dev/null
+

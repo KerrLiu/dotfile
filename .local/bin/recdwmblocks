@@ -1,0 +1,12 @@
+#!/bin/bash
+
+sig=1
+
+case "$1" in
+	fcitx) sig=11 ;;
+	date|temp|cpu|mem|speed) sig=1 ;;
+	net|battery) sig=13 ;;
+	music) sig=14 ;;
+	*) sig=1 ;;
+esac
+exec pkill -RTMIN+$sig dwmblocks

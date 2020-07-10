@@ -1,0 +1,23 @@
+#!/bin/bash
+
+[ ! $1 ] && exit 1
+
+num=${2:-5}
+
+case $1 in
+		add) amixer set Master playback $num+ >> /dev/null;;
+		cut) amixer set Master playback $num- >> /dev/null ;;
+		tog) amixer set Master toggle >> /dev/null ;;
+		*) exit 1;
+esac
+
+playnum=$(amixer get 'Master' | awk '/Mono:/ {print $4}')
+playint=$(echo $playnum | sed 's/[],%,[]//g')
+playint=$[$playint/10]
+
+for((i=1;i<=$playint;i++));
+do
+	playline=$playline"—"
+done
+msgid="10086"
+dunstify " $playnum$playline" -r "$msgid"

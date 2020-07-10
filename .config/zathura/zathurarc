@@ -1,0 +1,17 @@
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 2
+set selection-clipboard clipboard
+set window-title-basename true
+set statusbar-basename true
+
+set recolor-darkcolor "#93A1A1"
+set recolor-lightcolor "#002B36"
+# set recolor-lightcolor rgba(0,0,0,0)
+# set recolor true
+
+set statusbar-bg "#222D31"
+set statusbar-fg "#1ABB9B"
+set default-fg "#1ABB9B"
+set default-bg "#222D31"
+# set default-bg rgba(0,0,0,0.7)

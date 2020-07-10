@@ -1,0 +1,18 @@
+#!/bin/bash
+
+usbdev(){
+	sta=$(lsblk | egrep ^sdb | cut -d ' ' -f 17)
+	[ "$sta" ] && echo " $sta"
+}
+
+proxy(){
+	[ $(pgrep ss-qt5) ] && echo " "
+}
+
+numlock(){
+	[ $(cat /sys/class/leds/input4::numlock/brightness) = 1 ] && echo ""
+}
+
+usbdev
+proxy
+numlock

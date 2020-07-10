@@ -1,0 +1,38 @@
+#!/bin/bash
+
+
+goweb(){
+	case $# in
+		1)
+			case $1 in
+				wiki|archwiki) url="https://wiki.archlinux.org/index.php/" ;;
+				ytb|youtube) url="https://www.youtube.com/" ;;
+				bili|bilibili) url="https://www.bilibili.com/" ;;
+				pan|panduoduo) url="http://www.rufengso.net/" ;;
+				git|github) url="https://github.com/" ;;
+				fyz|fz) url="https://translate.google.cn/#view=home&op=translate&sl=auto&tl=en" ;;
+				fye|fe) url="https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN" ;;
+				*) url="https://cn.bing.com/search?q=$1" ;;
+			esac
+			;;
+		*)
+			case $1 in
+				wiki|archwiki) url="https://wiki.archlinux.org/index.php/${serachname#* }" ;;
+				ytb|youtube) url="https://www.youtube.com/results?search_query=${serachname#* }" ;;	
+				bili|bilibili) url="https://search.bilibili.com/all?keyword=${serachname#* }" ;;
+				pan|panduoduo) url="http://www.rufengso.net/s/name/${serachname#* }" ;;
+				git|github) url="https://github.com/search?q=${serachname#* }" ;;
+				fyz|fz) url="https://translate.google.cn/#view=home&op=translate&sl=auto&tl=en&text=${serachname#* }" ;;
+				fye|fe) url="https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text=${serachname#* }" ;;
+				*) url="https://cn.bing.com/search?q=${serachname}" ;;
+			esac
+			;;	
+	esac
+	[ "$url" ] && xdg-open "$url" & dwmc viewex 1
+	exit 1;
+}
+
+serachname=$(echo -e "wiki\nytb\nbili\npan\ngit\nfe\nfz\nfye\nfyz\narchwiki\nyoutube\nbilibili\npanduoduo\ngithub" | dmenuw -i -b -p "Search Input:")
+
+[ -n "$serachname" ] && goweb $serachname
+

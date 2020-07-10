@@ -1,0 +1,17 @@
+#!/bin/bash
+
+DMOPT="dmenuw -b -l 20"
+
+case $1 in
+	emoji) str=$($DMOPT -fn "Noto Color Emoji:size=12" < $HOME/Documents/txt/emoji) ;; 
+	awesome) str=$($DMOPT -fn ":pixelsize=16" < $HOME/Documents/txt/nerdfont) ;;
+	nerdfont) str=$($DMOPT -fn ":pixelsize=16" < $HOME/Documents/txt/nerdfont) ;;
+	*) exit 0;;
+esac
+
+[ ! "$str" ] && exit 0
+icon=$(echo $str | awk '{print $1}' | tr -d '\n')
+echo -n $icon | xclip -selection clipboard
+
+notify-send -t 2000 "$icon  is copied"
+

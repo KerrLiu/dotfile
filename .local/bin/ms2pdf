@@ -1,0 +1,4 @@
+#!/bin/bash
+
+[ -f "$1" ] || exit 
+groff -ms -e -t -p -T pdf "$1" > "${1%.*}.pdf"

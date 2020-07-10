@@ -1,0 +1,15 @@
+#!/bin/bash
+
+THEM=$((($(paste -d '+' /sys/class/thermal/thermal_zone?/temp))/6000))
+
+
+case $THEM in
+	100) icon=" " ;;
+	[987][0-9]) icon=" " ;;
+	[654][0-9]) icon=" " ;;
+	[321][0-9]) icon=" " ;;
+	*) icon=" " ;;
+esac
+
+[ $THEM -ge 75 ] &&  mpv --no-msg-time $HOME/.local/share/audio/hint2.mp3 1>/dev/null
+printf "%s%s°C\\n" "$icon" "$THEM"

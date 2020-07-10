@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+# LANG=EN_US.UTF-8
+# sed -i "s/@date.*/@date\\t\\t$(date)/g" $HOME/.config/vim/template/*.tpl
+
+date "+  %m-%d %H:%M"

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# music=$(ps ux | grep "mpv" | awk -F 'video ' '/Sl/ {print $2}')
+# music=$(pgrep -a "mpv" | awk -F 'Music/' '/Music\// {print $2}' | sed "s/\s\+//g")
+music=$(pgrep -a "mpv" | awk -F '/' '/Music\// {print $NF}' | sed "s/\s\+//g;s/[\(\)《》（）：&\\$;?_]//g")
+# music=$(pgrep -a "mpv" | awk -F '/' '/Music\// {print $NF}')
+# suffix=${music##*.}
+
+if [ "$music" ]; then
+	#echo "  $(echo -e "${music%.*}" | awk -F '/' '{print $NF}')
+	# printf "  ${music%.*} \\n"
+	printf "  $music \\n"
+fi
