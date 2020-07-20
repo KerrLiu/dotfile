@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# @file		mpvvideo
+# @author	Kerr
+# @date		Tue 14 Jul 2020 01:02:06 PM CST
+# @version	1.0
+# Pkgs		mpv,xclip,dmenu
+# Others	video_path script
+
+videoname=$(video_path | dmenu -b -l 20 -i -p "SelectVideo:")
+
+[ "$videoname" ] || exit 
+
+VIDEOPATH="$HOME/Videos"
+
+IFS=:
+for p in $VIDEOPATH
+do
+	video="$p/$videoname"
+	[ -f "$video" ] && break
+done
+
+[ "$videoname" = "Clipboard" ] && video=$(xclip -o)
+
+exec mpv "$video"
