@@ -65,17 +65,20 @@
 #"rxvt"
 #  Control + b:2 + Release
 
-"dmenu_run -b -nb "#222D31""
+"dmenu_run -b -nb '#222D31'"
   Mod4+d
 
-"i3-dmenu-desktop"
-  Mod4+r
+# "i3-dmenu-desktop"
+#   Mod4+r
 
 "search"
   Control+Mod4+o
 
 "Chrome"
   Mod4+b
+
+"mpvvideo"
+  Mod4+p
 
 "pcmanfm & dwmc viewex 3"
   XF86Explorer
