@@ -1,16 +1,12 @@
 #!/bin/bash
 
-msg()
-{
-	music=$(ps ax | grep "mpv" | awk -F 'video ' '/Sl/ {print $2}')
-	[ "$music" ] && echo "  "$(basename "$music" .mp3)
-
-	echo "  $(df -h | awk 'NR==4 {print $5}')"
-	echo "  $(free -t | awk 'NR == 2 {printf("%.f"),$3/$2*100}')%"
-	echo "  $(top -b -n1 | awk '/^%Cpu/ {printf("%.f"), 100-$8}')%"
-	echo "  $(sed 's/000$/°C/' /sys/class/thermal/thermal_zone0/temp)"
-	echo "  $(date "+%m-%d %H:%M")"
-	echo "  $(fcitx-remote | sed "s/1/EN/g;s/2/ZH/g;s/0/NO/g")"
+msg(){
+	showmusic
+	netconn
+	disk
+	thermal
+	battery
+	datetime
 }
 
-echo $(msg | tr '\n' ' ')
+msg | tr '\n' ' '
