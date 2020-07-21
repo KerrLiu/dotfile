@@ -1,3 +1,4 @@
 # ArchLinux Dotfile
 
-> Do not use by others !
+> The dotfiles is on Arch Linux!
+> Do not use!
