@@ -38,19 +38,17 @@ do
 
 	if [ "$isFlac" ]; then
 		[ -f "$song_cover_path" ] && metaflac --import-picture-from="$song_cover_path" "$song_file_path" || echo "cover not found"
-		sleep 1
 		metaflac --remove-tag=Comment "$song_file_path"
 		metaflac --set-tag Artist="$(echo "$song_artist" | tr -d '"')" "$song_file_path"
 		metaflac --set-tag Title="$(echo "$song_name" | tr -d '"')" "$song_file_path"
 	else
 		eyeD3 -a "$(echo "$song_artist" | tr -d '"')" "$song_file_path"
 		eyeD3 -t "$(echo "$song_name" | tr -d '"')" "$song_file_path"
-		sleep 1
 		[ -f "$song_cover_path" ] && eyeD3 --add-image="$song_cover_path":FRONT_COVER "$song_file_path" || echo "cover not found"
-		sleep 1
 		[ -f "$song_lrc_path" ] && eyeD3 --add-lyrics "$song_lrc_path" "$song_file_path" || echo "lrc not found"
 
 	fi
+	sleep 1
 done
 
 echo "Edit End total=$total_num"

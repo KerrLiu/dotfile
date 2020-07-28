@@ -34,17 +34,16 @@ do
 	song_dl_path=$(echo "$music_path$song_name - $song_artist$song_type" | tr -d '"')
 	echo "Download num=$i name=$song_name type=$song_type"
 	[ "$song_url" ] && curl -sL $(echo $song_url | tr -d '"') -o "$song_dl_path" || echo "song null"
-	sleep 1
 	echo "Download num$i name=$song_name type=cover"
 	song_cover=$(jq ".data.list[${i}].cover" $listfile)
 	cover_dl_path=$(echo "$cover_path$song_name - $song_artist.jpg" | tr -d '"')
 	[ "$song_cover" ] && curl -sL $(echo $song_cover | tr -d '"') -o "$cover_dl_path" || echo "cover null"
-	sleep 1
 	echo "Download num$i name=$song_name type=lrc"
 	song_lrc=$(jq ".data.list[${i}].lrc" $listfile)
 	lrc_dl_path=$(echo "$lrc_path$song_name - $song_artist.lrc" | tr -d '"')
 	[ "$song_lrc" ] && curl -sL $(echo $song_lrc | tr -d '"') -o "$lrc_dl_path" || echo "lrc null"
 	echo "Download num $i end"
+	sleep 1
 done
 
 echo "Download End total=$total_num"
