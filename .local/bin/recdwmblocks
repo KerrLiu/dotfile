@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# @file		recdwmblocks
+# @author	Kerr
+# @date		Wed 29 Jul 2020 05:56:34 PM CST
+# @pkgs		base dwmblocks
+# @version	1.0
 
 sig=1
 

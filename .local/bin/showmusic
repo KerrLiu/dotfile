@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# @file		showmusic
+# @author	Kerr
+# @date		Wed 29 Jul 2020 05:58:09 PM CST
+# @pkgs		base
+# @version	1.0
 
 # music=$(ps ux | grep "mpv" | awk -F 'video ' '/Sl/ {print $2}')
 # music=$(pgrep -a "mpv" | awk -F 'Music/' '/Music\// {print $2}' | sed "s/\s\+//g")

@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+# @file		diction
+# @author	Kerr
+# @date		Wed 29 Jul 2020 05:50:19 PM CST
+# @pkgs		base dmenu
+# @version	1.0
+
 dmenu -b -l 20 < /home/kerr/Documents/txt/OxfordEnglishChineseDictionary
-
-

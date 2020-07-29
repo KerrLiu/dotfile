@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # @file         ex
 # @author       ?
-# @date         ...
-# @pkgs         base tar bunzip zip 7zip rar
+# @date         Wed 29 Jul 2020 05:59:25 PM CST
+# @pkgs         base
 # @version      1.0
 
 [ ! -f $1 ] && exit 1

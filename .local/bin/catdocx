@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # @file         catdocx
-# @author       ?
-# @date         ...
+# @author       Kerr
+# @date         Wed 29 Jul 2020 05:59:25 PM CST
 # @pkgs         base catdoc zip
 # @version      1.0
 

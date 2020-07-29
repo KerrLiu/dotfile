@@ -4,10 +4,9 @@
 # @author	Kerr
 # @date		Tue 14 Jul 2020 01:02:06 PM CST
 # @version	1.0
-# Pkgs		mpv,xclip,dmenu
-# Others	video_path script
+# @pkgs		mpv xclip dmenu video_path(script)
 
-videoname=$(video_path | dmenu -b -l 20 -i -p "SelectVideo:")
+videoname=$(video_path | egrep -v "*.xml$" | dmenu -b -l 20 -i -p "SelectVideo:")
 
 [ "$videoname" ] || exit 
 

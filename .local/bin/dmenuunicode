@@ -1,4 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# @file		dmenuunicode
+# @author	Kerr
+# @date		Wed 29 Jul 2020 05:47:08 PM CST
+# @pkgs		base dmenu xclip
+# @version	1.0
+
 
 DMOPT="dmenuw -b -l 20"
 
@@ -14,4 +21,3 @@ icon=$(echo $str | awk '{print $1}' | tr -d '\n')
 echo -n $icon | xclip -selection clipboard
 
 notify-send -t 2000 "$icon  is copied"
-

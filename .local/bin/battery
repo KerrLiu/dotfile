@@ -2,7 +2,7 @@
 
 # @file         battery
 # @author       Kerr
-# @date         ...
+# @date         Wed 29 Jul 2020 05:59:25 PM CST
 # @pkgs         base
 # @version      1.0
 
@@ -13,16 +13,16 @@ STA=$(cat /sys/class/power_supply/BAT?/status)
 
 if [ $STA == Charging ] || [ $STA == charging ]; then 
 	case $CAP in
-		100) icon=" " ;;
-		9[0-9]) icon=" " ;;
-		8[0-9]) icon=" " ;;
-		7[0-9]) icon=" " ;;
-		6[0-9]) icon=" " ;;
-		5[0-9]) icon=" " ;;
-		4[0-9]) icon=" " ;;
-		3[0-9]) icon=" " ;;
-		[21][0-9]) icon=" " ;;
-		*) icon=" " ;;
+		100) icon="  " ;;
+		9[0-9]) icon="  " ;;
+		8[0-9]) icon="  " ;;
+		7[0-9]) icon="  " ;;
+		6[0-9]) icon="  " ;;
+		5[0-9]) icon="  " ;;
+		4[0-9]) icon="  " ;;
+		3[0-9]) icon="  " ;;
+		[21][0-9]) icon="  " ;;
+		*) icon="  " ;;
 	esac
 else
 	case $CAP in
@@ -40,4 +40,4 @@ else
 	esac
 fi
 # echo $(echo $STA | sed "s/[Ff]ull/ﴞ /g;s/[Nn]ot charging/ /g;s/[Dd]ischarging/ﮤ /g;s/[Cc]harging/ﮣ /g;s/[Uu]nknown/ /g")
-echo "$icon $(echo $CAP | sed "s/$/%/g") $warn"
+echo "$icon$(echo $CAP | sed "s/$/%/g") $warn"

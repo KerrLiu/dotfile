@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# @file         screenshots
+# @author       Kerr
+# @date         Wed 29 Jul 2020 05:59:25 PM CST
+# @pkgs         base xclip scrot
+# @version      1.0
 
 [ ! $1 ] && exit 1
 

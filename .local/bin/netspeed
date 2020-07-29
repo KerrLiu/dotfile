@@ -1,10 +1,10 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-# @file         netspeed
-# @author       Kerr
-# @date         ...
-# @pkgs         base nerdfont
-# @version      1.0
+# @file		netspeed
+# @author	Kerr
+# @date		Wed 29 Jul 2020 05:55:04 PM CST
+# @pkgs		base
+# @version	1.0
 
 logfile="$HOME/.cache/netlog"
 read -r rxprev txprev < "$logfile"

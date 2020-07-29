@@ -1,5 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
+# @file		search
+# @author	Kerr
+# @date		Wed 29 Jul 2020 05:57:20 PM CST
+# @pkgs		base
+# @version	1.0
 
 goweb(){
 	case $# in
@@ -35,4 +40,3 @@ goweb(){
 serachname=$(echo -e "wiki\nytb\nbili\npan\ngit\nfe\nfz\nfye\nfyz\narchwiki\nyoutube\nbilibili\npanduoduo\ngithub" | dmenuw -i -b -p "Search Input:")
 
 [ -n "$serachname" ] && goweb $serachname
-

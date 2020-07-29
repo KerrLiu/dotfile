@@ -1,6 +1,12 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-bookname=$(book_path | dmenuw -b -l 20 -i -p "BookShelf:")
+# @file		bookshelf
+# @author	Kerr
+# @date		Wed 29 Jul 2020 05:48:41 PM CST
+# @pkgs		base book_path(script) dmenu zathura markdown_previewer
+# @version	1.0
+
+ookname=$(book_path | dmenuw -b -l 20 -i -p "BookShelf:")
 
 [ ! "$bookname" ] && exit
 

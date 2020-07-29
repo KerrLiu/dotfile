@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-# @file         cpuinfo
-# @author       Kerr
-# @date         ...
-# @pkgs         base
-# @version      1.0
+# @file		cpuinfo
+# @author	Kerr
+# @date		Wed 29 Jul 2020 05:49:17 PM CST
+# @pkgs		base
+# @version	1.0
 
 oldcpustat=/tmp/oldcpustat.txt
 [ ! -f "$oldcpustat" ] && echo "0 0" > $oldcpustat

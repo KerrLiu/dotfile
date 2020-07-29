@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# @file		playmusic
+# @author	Kerr
+# @date		Wed 29 Jul 2020 05:55:45 PM CST
+# @pkgs		base mpv
+# @version	1.0
 
 id=$(pgrep -la mpv | awk '/--no-video/ {print $1}')
 
@@ -14,9 +20,10 @@ elif [ $1 == up ]; then
 	musicpath=$(tail -n 2 $tmpfile | head -n 1)
 	sed -i '$d' $tmpfile
 else
-	musicpath=$(find $HOME/Music -iname "*.mp3" -o -iname "*.flac" -o -iname "*.wav" -o -iname "*.ape" | shuf -n 1)
+	# musicpath=$(find $HOME/Music -iname "*.mp3" -o -iname "*.flac" -o -iname "*.wav" -o -iname "*.ape" | shuf -n 1)
+	musicpath=$(ls -d $HOME/Music/MyMusic/* | grep -v .lrc | shuf -n 1)
 	echo $musicpath >> $tmpfile
 fi
-mpv --no-video "$musicpath" && exec pkill -RTMIN+14 dwmblocks &
+mpv --no-video "$musicpath" && pkill -RTMIN+14 dwmblocks &
 sleep 0.5
-exec pkill -RTMIN+14 dwmblocks
+exec kill -RTMIN+14 dwmblocks

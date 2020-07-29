@@ -1,4 +1,10 @@
-#!/bin/sh
+#!/usr/bin/env bash
+
+# @file         book_path
+# @author       Kerr
+# @date         Wed 29 Jul 2020 05:59:25 PM CST
+# @pkgs         base stest
+# @version      1.0
 
 cachedir="${XDG_CACHE_HOME:-"$HOME/.cache"}"
 cache="$cachedir/book_run"

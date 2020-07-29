@@ -1,14 +1,20 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# @file		amixerMaster
+# @author	Kerr
+# @date		Wed 29 Jul 2020 05:48:04 PM CST
+# @pkgs		base alsa-utils
+# @version	1.0
 
 [ ! $1 ] && exit 1
 
 num=${2:-5}
 
 case $1 in
-		add) amixer set Master playback $num+ >> /dev/null;;
-		cut) amixer set Master playback $num- >> /dev/null ;;
-		tog) amixer set Master toggle >> /dev/null ;;
-		*) exit 1;
+	add) amixer set Master playback $num+ >> /dev/null;;
+	cut) amixer set Master playback $num- >> /dev/null ;;
+	tog) amixer set Master toggle >> /dev/null ;;
+	*) exit 1;
 esac
 
 playnum=$(amixer get 'Master' | awk '/Mono:/ {print $4}')

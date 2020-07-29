@@ -3,6 +3,7 @@
 # @file		video_path
 # @author	Kerr
 # @date		Tue 14 Jul 2020 12:57:41 PM CST
+# @pkgs		base stest
 # @version	1.0
 
 cachedir="${XDG_CACHE_HOME:-"$HOME/.cache"}"
@@ -17,5 +18,5 @@ if stest -dqr -n "$cache" $VIDEOPATH; then
 		stest -fl $VIDEOPATH | sort -u | tee "$cache"
 	else
 			echo "Clipboard"
-			cat "$cache" | egrep -v "*.xml"
+			cat "$cache"
 fi

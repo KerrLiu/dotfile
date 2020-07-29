@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # @file         setbg
 # @author       Kerr
-# @date         ...
+# @date         Wed 29 Jul 2020 05:59:25 PM CST
 # @pkgs         base hsetroot
 # @version      1.0
 

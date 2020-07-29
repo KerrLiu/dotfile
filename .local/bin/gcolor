@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
 
-# @file         gcolor
-# @author       Kerr
-# @date         ...
-# @pkgs         base zenity
-# @version      1.0
+# @file		gcolor
+# @author	Kerr
+# @date		Wed 29 Jul 2020 05:51:30 PM CST
+# @pkgs		base zenity xclip
+# @version	1.0
 
 value=$(zenity --color-selection --name=gcolor)
 
 [ "$value" ] && echo "$value" | xclip -selection clipboard
-
