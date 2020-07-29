@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 dmenu -b -l 20 < /home/kerr/Documents/txt/OxfordEnglishChineseDictionary
 

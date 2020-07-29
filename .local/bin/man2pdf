@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# @file         man2pdf
+# @author       Kerr
+# @date         ...
+# @pkgs         base dmenu zathura
+# @version      1.0
+
 manname=$(man -k . | dmenu -b -l 15 | awk '{print $1}')
 [ "$manname" ] && man -Tpdf "$manname" | zathura - >> /dev/null
 

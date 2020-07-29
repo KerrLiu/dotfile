@@ -1,4 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# @file         cpuinfo
+# @author       Kerr
+# @date         ...
+# @pkgs         base
+# @version      1.0
+
 oldcpustat=/tmp/oldcpustat.txt
 [ ! -f "$oldcpustat" ] && echo "0 0" > $oldcpustat
 

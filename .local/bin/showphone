@@ -1,3 +1,9 @@
 #!/bin/bash
 
+# @file         showphone
+# @author       Kerr
+# @date         ...
+# @pkgs         base ffmpeg android-tools
+# @version      1.0
+
 adb shell screenrecord --output-format=h264 - | ffplay -

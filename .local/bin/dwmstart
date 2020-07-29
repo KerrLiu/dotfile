@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# @file         dwmstart
+# @author       Kerr
+# @date         ...
+# @pkgs         base dwmblock fcitx xbindkeys dunst xss-lock xrandr 
+# @version      1.0
+
 fcitx &
 xbindkeys -f $HOME/.config/xbindkeysrc &
 dunst &

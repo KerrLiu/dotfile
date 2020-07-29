@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# @file			weather
+# @author		Kerr
+# @data			...
+# @pkgs			base jq curl nerdfont notify-send
+# @version		1.0
+
 get_icon() {
     case $1 in
         01d) icon="  ";;

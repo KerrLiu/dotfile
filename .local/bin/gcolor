@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# @file         gcolor
+# @author       Kerr
+# @date         ...
+# @pkgs         base zenity
+# @version      1.0
 
 value=$(zenity --color-selection --name=gcolor)
 

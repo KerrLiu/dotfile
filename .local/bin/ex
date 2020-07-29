@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# @file         ex
+# @author       ?
+# @date         ...
+# @pkgs         base tar bunzip zip 7zip rar
+# @version      1.0
+
 [ ! -f $1 ] && exit 1
 
 case $1 in

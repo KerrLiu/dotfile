@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/uer/bin/env bash
+
+# @file         thermal
+# @author       Kerr
+# @date         ...
+# @pkgs         base mpv
+# @version      1.0
 
 THEM=$((($(paste -d '+' /sys/class/thermal/thermal_zone?/temp))/6000))
 

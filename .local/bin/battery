@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# @file         battery
+# @author       Kerr
+# @date         ...
+# @pkgs         base
+# @version      1.0
 
 CAP=$(cat /sys/class/power_supply/BAT?/capacity) || break
 STA=$(cat /sys/class/power_supply/BAT?/status)

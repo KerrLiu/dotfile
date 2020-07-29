@@ -1,4 +1,10 @@
 #!/bin/bash
 
+# @file         mpvcamera
+# @author       Kerr
+# @date         ...
+# @pkgs         base mpv
+# @version      1.0
+
 [ -c "/dev/video0" ] && mpv /dev/video0 &
 

@@ -1,3 +1,9 @@
 #!/bin/bash
 
+# @file         Chrome
+# @author       Kerr
+# @date         ...
+# @pkgs         base google-chrome-stable
+# @version      1.0
+
 [ "$(pgrep chrome)" ] && dwmc viewex 1 || google-chrome-stable

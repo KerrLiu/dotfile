@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# @file         netspeed
+# @author       Kerr
+# @date         ...
+# @pkgs         base nerdfont
+# @version      1.0
+
 logfile="$HOME/.cache/netlog"
 read -r rxprev txprev < "$logfile"
 

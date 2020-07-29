@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# @file         devlist
+# @author       Kerr
+# @date         ...
+# @pkgs         base
+# @version      1.0
 
 usbdev(){
 	sta=$(lsblk | egrep ^sdb | cut -d ' ' -f 17)

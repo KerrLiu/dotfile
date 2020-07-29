@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# @file         catdocx
+# @author       ?
+# @date         ...
+# @pkgs         base catdoc zip
+# @version      1.0
 
 filename="$1"
 
