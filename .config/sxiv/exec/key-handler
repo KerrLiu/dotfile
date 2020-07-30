@@ -1,4 +1,11 @@
-#!/bin/sh
+#!/usr/bin/env bash
+
+# @file		key-handler.sh
+# @author	Kerr
+# @date		Thu 30 Jul 2020 09:01:03 PM CST
+# @pkgs		base xclip dmenu setbg(script)
+# @version	1.0
+
 while read file
 do
 	case "$1" in
