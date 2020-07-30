@@ -158,6 +158,8 @@ vmap <C-c> <CR>:!xclip -f -sel clip<CR><CR>
 " nmap <leader>c "+y
 " nmap <leader>v "+gp
 nnoremap <leader><leader>ms :w<CR>:!ms2pdf %<CR><CR>
+nnoremap <leader><leader>md :w<CR>:!markdown_previewer %<CR><CR>
+nnoremap <leader><leader>sh :w<CR>:!chmod +x %<CR>:e<CR>
 
 let g:input_toggle = 1
 function! Fcitx2en()
@@ -181,28 +183,28 @@ au InsertEnter * call Fcitx2en()
 
 " autocmd FileType tex setlocal spell spelllang=en_us
 
-:inoremap ( ()<ESC>i
-:inoremap ) <c-r>=ClosePair(')')<CR>
-:inoremap { {<CR>}<ESC>O
-:inoremap } <c-r>=ClosePair('}')<CR>
-:inoremap [ []<ESC>i
-:inoremap ] <c-r>=ClosePair(']')<CR>
-:inoremap " ""<ESC>i
-:inoremap ' ''<ESC>i
-function! ClosePair(char)
-	if getline('.')[col('.') - 1] == a:char
-		return "\<Right>"
-	else
-		return a:char
-	endif
-endfunction
+" :inoremap ( ()<ESC>i
+" :inoremap ) <c-r>=ClosePair(')')<CR>
+" :inoremap { {<CR>}<ESC>O
+" :inoremap } <c-r>=ClosePair('}')<CR>
+" :inoremap [ []<ESC>i
+" :inoremap ] <c-r>=ClosePair(']')<CR>
+" :inoremap " ""<ESC>i
+" :inoremap ' ''<ESC>i
+" function! ClosePair(char)
+" 	if getline('.')[col('.') - 1] == a:char
+" 		return "\<Right>"
+" 	else
+" 		return a:char
+" 	endif
+" endfunction
 
 " Reload file
 augroup Reloadfile
 	au!
  	au BufWritePost *Xresources,*Xdefaults silent !xrdb % && dwmc xrdb
  	au BufWritePost *xbindkeysrc silent !pkill -HUP xbindkeys
- 	au BufWritePost *.md silent !markdown_previewer % 
+ 	" au BufWritePost *.md silent !markdown_previewer % 
 augroup end
 
 function! ReplaceTags()
