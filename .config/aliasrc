@@ -5,8 +5,6 @@ alias ll='ls -alh'
 alias cp='cp -iv'
 alias copy='xclip -sel clip'
 # alias weather='curl wttr.in'
-alias baidu='$HOME/.local/share/BaiduPCS-Go/BaiduPCS-Go'
-alias sshtermux='ssh u0_a155@192.168.0.100 -p 8022'
 alias conrona='curl -sf "https://corona-stats.online?top=10"'
 
 alias cd1='cd ../'
@@ -35,7 +33,7 @@ alias vcd='cd $HOME/Documents/github/dwm && vim config.h'
 alias vcb='cd $HOME/Documents/github/dwmblocks && vim blocks.h'
 
 
-alias setproxy='export HTTP_PROXY=http://192.168.0.119:10809 && export HTTPS_PROXY=http://192.168.0.119:10809'
+alias setproxy='export HTTP_PROXY=ip && export HTTPS_PROXY=ip'
 alias unsetproxy='unset HTTP_PROXY && unset HTTPS_PROXY'
 alias myip='curl -i http://ip.cn'
 alias mypubip='curl -s https://checkip.amazonaws.com'
