@@ -6,7 +6,7 @@
 # @pkgs		base book_path(script) dmenu zathura markdown_previewer
 # @version	1.0
 
-ookname=$(book_path | dmenuw -b -l 20 -i -p "BookShelf:")
+bookname=$(book_path | dmenuw -b -l 20 -i -p "BookShelf:")
 
 [ ! "$bookname" ] && exit
 
