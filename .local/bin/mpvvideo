@@ -19,6 +19,11 @@ do
 	[ -f "$video" ] && break
 done
 
-[ "$videoname" = "Clipboard" ] && video=$(xclip -o)
+mpv_history_url="$HOME/.cache/mpv_history_url"
+mpv_back="$HOME/.cache/mpv_back"
+[ "$videoname" = "Clipboard" ] && video=$(xclip -o) && echo "$video" >> $mpv_history_url
+[ "$videoname" = "Playback" ] && video=$(cat $mpv_back)
+
+echo "$video" > "$mpv_back"
 
 exec mpv "$video"
