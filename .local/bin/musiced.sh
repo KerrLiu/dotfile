@@ -12,6 +12,7 @@ cover_path="$HOME/Downloads/Music/cover/"
 lrc_path="$HOME/Downloads/Music/lrc/"
 
 [[ -f "$listfile" && $(file "$listfile" | grep JSON ) ]] || exit 1
+[ $(jq ".code" "$listfile") == 200 ] && echo ok! || exit 2
 
 [ -d "$music_path" ] && echo "music path have" || mkdir -p "$music_path"
 [ -d "$cover_path" ] && echo "cover path have" || mkdir -p "$cover_path"
@@ -46,6 +47,7 @@ do
 		eyeD3 -t "$(echo "$song_name" | tr -d '"')" "$song_file_path"
 		[ -f "$song_cover_path" ] && eyeD3 --add-image="$song_cover_path":FRONT_COVER "$song_file_path" || echo "cover not found"
 		[ -f "$song_lrc_path" ] && eyeD3 --add-lyrics "$song_lrc_path" "$song_file_path" || echo "lrc not found"
+
 	fi
 	sleep 1
 done

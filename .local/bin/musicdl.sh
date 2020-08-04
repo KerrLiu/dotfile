@@ -12,6 +12,7 @@ cover_path="$HOME/Downloads/Music/cover/"
 lrc_path="$HOME/Downloads/Music/lrc/"
 
 [[ -f "$listfile" && $(file "$listfile" | grep JSON ) ]] || exit 1
+[ $(jq ".code" "$listfile") == 200 ] && echo ok! || exit 2
 
 [ -d "$music_path" ] && echo "music path have" || mkdir -p "$music_path"
 [ -d "$cover_path" ] && echo "cover path have" || mkdir -p "$cover_path"
