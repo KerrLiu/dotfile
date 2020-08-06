@@ -6,5 +6,8 @@
 # @pkgs		base
 # @version	1.0
 
-date "+  %m-%d %H:%M"
-
+read month day hour minute <<< $(date "+%m %d %H %M")
+printf "  %s\\n" "$month-$day $hour:$minute"
+if [[ $minute =~ [0-5]0 ]] ; then
+   	xset r rate 300 50
+fi
