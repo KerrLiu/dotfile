@@ -9,10 +9,11 @@
 
 DMOPT="dmenuw -b -l 20"
 
+datadir="${XDG_DATA_HOME:-"$HOME/.local/share"}"
+
 case $1 in
-	emoji) str=$($DMOPT -fn "Noto Color Emoji:size=12" < $HOME/Documents/txt/emoji) ;; 
-	awesome) str=$($DMOPT -fn ":pixelsize=16" < $HOME/Documents/txt/nerdfont) ;;
-	nerdfont) str=$($DMOPT -fn ":pixelsize=16" < $HOME/Documents/txt/nerdfont) ;;
+	emoji) str=$($DMOPT -fn "Noto Color Emoji:size=12" < $datadir/larbs/emoji) ;; 
+	nerdfont) str=$($DMOPT -fn ":pixelsize=16" < $datadir/larbs/nerdfont) ;;
 	*) exit 0;;
 esac
 
