@@ -22,3 +22,10 @@
 | xmodmap | [Xmodmap](https://github.com/KerrLiu/dotfile/tree/master/.config/Xmodmap)|NO|
 | xrdb | [Xresources](https://github.com/KerrLiu/dotfile/tree/master/.config/Xresources)|NO|
 | xinit | [xinitrc](https://github.com/KerrLiu/dotfile/tree/master/.config/xinitrc)|NO|
+
+
+## My Other config
+
++ [Simple Terminal](https://github.com/KerrLiu/st)
+
+
