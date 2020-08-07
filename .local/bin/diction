@@ -6,4 +6,6 @@
 # @pkgs		base dmenu
 # @version	1.0
 
-dmenu -b -l 20 < /home/kerr/Documents/txt/OxfordEnglishChineseDictionary
+datadir="${XDG_DATA_HOME:-"$HOME/.local/share"}"
+
+dmenu -b -l 20 < $datadir/larbs/OxfordEnglishChineseDictionary
