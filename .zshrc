@@ -1,4 +1,3 @@
-# USE NVIDIA 
-# [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]] && DRI_PRIME=1 startx $HOME/.config/xinitrc dwm
+# USE NVIDIA DRI_PRIME=1
 
 [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]] && startx $HOME/.config/xinitrc dwm
