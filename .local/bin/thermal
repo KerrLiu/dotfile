@@ -6,7 +6,10 @@
 # @pkgs         base
 # @version      1.0
 
-THEM=$((($(paste -d '+' /sys/class/thermal/thermal_zone?/temp))/6000))
+total=$(ls /sys/class/thermal | grep thermal_zone | wc -l)
+# static total number
+# total=6
+THEM=$((($(paste -d '+' /sys/class/thermal/thermal_zone?/temp))/($total*1000)))
 
 
 case $THEM in
@@ -17,5 +20,5 @@ case $THEM in
 	*) icon=" " ;;
 esac
 
-[ $THEM -ge 75 ] &&  mpv --no-msg-time $HOME/.local/share/audio/hint2.mp3 1>/dev/null
+# [ $THEM -ge 75 ] &&  mpv --no-msg-time $HOME/.local/share/audio/hint2.mp3 1>/dev/null
 printf "%s%s°C\\n" "$icon" "$THEM"
