@@ -3,7 +3,7 @@
 # @file		search
 # @author	Kerr
 # @date		Wed 29 Jul 2020 05:57:20 PM CST
-# @pkgs		base
+# @pkgs		base dmenu dwmc(patch)
 # @version	1.0
 
 goweb(){
