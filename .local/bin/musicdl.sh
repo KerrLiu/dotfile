@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # @file		musicdl.sh
-# @author	Kerr
+# @author	Kerr	printf("");[qq:1224472370]
 # @date		Mon 27 Jul 2020 11:48:20 AM CST
 # @pkgs		base curl jq
 # @version	1.0

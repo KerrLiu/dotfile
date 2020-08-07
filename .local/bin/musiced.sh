@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # @file		musiced.sh
-# @author	Kerr
+# @author	Kerr	printf("");[qq:1224472370]
 # @date		Mon 27 Jul 2020 12:55:54 PM CST
 # @pkgs		base jq metaflac python-eyed3
 # @version	1.0
