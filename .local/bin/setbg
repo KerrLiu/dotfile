@@ -6,7 +6,9 @@
 # @pkgs         base hsetroot
 # @version      1.0
 
+wall_path="/home/kerr/Pictures/Wallpapers/*"
+
 [ -f "$1" ] && hsetroot -cover "$1" && exit 
 
-ls -d /home/kerr/Pictures/Wallpapers/* | shuf -n 1 |xargs hsetroot -cover
+ls -d $wall_path | shuf -n 1 |xargs hsetroot -cover
 
