@@ -17,7 +17,7 @@ case $1 in
 	*) exit 0;;
 esac
 
-[ ! "$str" ] && exit 0
+[ "$str" ] || exit 0
 icon=$(echo $str | awk '{print $1}' | tr -d '\n')
 echo -n $icon | xclip -selection clipboard
 
