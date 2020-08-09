@@ -9,4 +9,4 @@
 eth=$(sed "s/[Uu]p/ /g;s/[Uu]nknown/ /g;s/[Dd]ormancy/ /g;s/[Dd]ormant/ /g;s/[Dd]own//g" /sys/class/net/enp*/operstate)
 wlp=$(sed "s/[Uu]p/ /g;s/[Uu]nkonw/ /g;s/[Dd]ormancy/ /g;s/[Dd]ormant/ /g;s/[Dd]own//g" /sys/class/net/wlp*/operstate)
 
-[ "$eth$wlp" ]  && printf "%s%s \n" "$eth" "$wlp"
+[ "$eth$wlp" ]  && printf "%s%s \n" "$eth" "$wlp" || printf "ﲁ  \n"
