@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# @file		key-handler.sh
+# @file		key-handler
 # @author	Kerr
 # @date		Thu 30 Jul 2020 09:01:03 PM CST
 # @pkgs		base xclip dmenu setbg(script)
