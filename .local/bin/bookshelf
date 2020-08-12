@@ -8,7 +8,7 @@
 
 bookname=$(book_path | dmenuw -b -l 20 -i -p "BookShelf:")
 
-[ ! "$bookname" ] && exit
+[ "$bookname" ] || exit
 
 BOOKPATH="$HOME/Documents/pdf:$HOME/Documents/epub:$HOME/Documents/txt:$HOME/Documents/markdown/MyMarkDown:$HOME/Documents/markdown/GolangStudy:$HOME/Documents/markdown/guiides"
 

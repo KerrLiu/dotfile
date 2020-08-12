@@ -7,7 +7,7 @@
 # @version	1.0
 
 oldcpustat=/tmp/oldcpustat.txt
-[ ! -f "$oldcpustat" ] && echo "0 0" > $oldcpustat
+[ -f "$oldcpustat" ] || echo "0 0" > $oldcpustat
 
 arrn=($(grep "cpu " /proc/stat))
 # user 1 nice 2 system 3 idle 4 iowait 5 irq 6 softirq 7

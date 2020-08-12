@@ -6,7 +6,7 @@
 # @pkgs         base xclip scrot
 # @version      1.0
 
-[ ! $1 ] && exit 1
+[ $1 ] || exit 1
 
 filedirs=$HOME/Pictures/screens/
 filepath=$filedirs$(date +"%Y-%m-%d-%H-%M-%S").png
@@ -21,7 +21,7 @@ case $1 in
 		*) exit 1 ;
 esac
 
-[ ! -f $filepath ] && exit 1
+[ -f $filepath ] || exit 1
 
 xclip -selection clipoard -t 'image/png' $filepath
 notify-send -i $filepath -t 3000 "Screenshot successfully copied!"
