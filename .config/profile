@@ -42,5 +42,4 @@ export LESSHISTFILE="$XDG_CACHE_HOME/less/history"
 export VIMINIT=":source $XDG_CONFIG_HOME"/vim/vimrc
 # export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 
-
 exec dwmstart >> /dev/null &
