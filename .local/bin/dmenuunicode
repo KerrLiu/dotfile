@@ -7,7 +7,7 @@
 # @version	1.0
 
 
-DMOPT="dmenuw -b -l 20"
+DMOPT="dmenu -b -l 20"
 
 datadir="${XDG_DATA_HOME:-"$HOME/.local/share"}"
 

@@ -37,6 +37,6 @@ goweb(){
 	exit 1;
 }
 
-serachname=$(echo -e "wiki\nytb\nbili\npan\ngit\nfe\nfz\nfye\nfyz\narchwiki\nyoutube\nbilibili\npanduoduo\ngithub" | dmenuw -i -b -p "Search Input:")
+serachname=$(echo -e "wiki\nytb\nbili\npan\ngit\nfe\nfz\nfye\nfyz\narchwiki\nyoutube\nbilibili\npanduoduo\ngithub" | dmenu -i -b -p "Search Input:")
 
 [ -n "$serachname" ] && goweb $serachname

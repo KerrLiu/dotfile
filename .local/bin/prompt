@@ -12,4 +12,4 @@
 # `./prompt "Do you want to shutdown?" "shutdown -h now"`
 
 
-[ "$(echo -e "No\nYes" | dmenuw -i -b -p "$1" )" = "Yes" ] && $2
+[ "$(echo -e "No\nYes" | dmenu -i -b -p "$1" )" = "Yes" ] && $2
