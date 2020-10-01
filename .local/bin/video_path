@@ -17,6 +17,5 @@ IFS=:
 if stest -dqr -n "$cache" $VIDEOPATH; then
 		stest -fl $VIDEOPATH | sort -u | tee "$cache"
 	else
-			echo -e "Clipboard\nPlayback"
 			cat "$cache"
 fi

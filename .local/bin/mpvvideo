@@ -6,7 +6,7 @@
 # @version	1.0
 # @pkgs		mpv xclip dmenu video_path(script)
 
-videoname=$(video_path | egrep -v "*.xml$" | dmenu -b -l 20 -i -p "SelectVideo:")
+videoname=$(echo -e "Clipboard\nPlayback\n$(video_path)" | egrep -v "*.xml$" | dmenu -b -l 20 -i -p "SelectVideo:")
 
 [ "$videoname" ] || exit 
 
