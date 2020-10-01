@@ -18,16 +18,18 @@ lrc_path="$HOME/Downloads/Music/lrc/"
 [ -d "$cover_path" ] && echo "cover path have" || mkdir -p "$cover_path"
 [ -d "$lrc_path" ] && echo "lrc path have" || mkdir -p "$lrc_path"
 
-total_num=$(jq '.data.list | length' $listfile)
+jsondata=$(cat $listfile)
+
+total_num=$(jq '.data.list | length' <<< $jsondata)
 
 echo "Edit Start total=$total_num"
 
 for ((i=0;i<$total_num;i++))
 do
 	echo "Edit num=$i start"
-	song_name=$(jq ".data.list[${i}].name" $listfile)
-	song_artist=$(jq ".data.list[${i}].artist" $listfile)
-	song_url=$(jq ".data.list[${i}].url_flac" $listfile)
+	song_name=$(jq ".data.list[${i}].name" <<< $jsondata)
+	song_artist=$(jq ".data.list[${i}].artist" <<< $jsondata)
+	song_url=$(jq ".data.list[${i}].url_flac" <<< $jsondata)
 	song_type='.flac'
 	[ $song_url == 'null' ] && song_type='.mp3'
 
