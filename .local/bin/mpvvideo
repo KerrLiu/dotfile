@@ -10,7 +10,12 @@ videoname=$(echo -e "Clipboard\nPlayback\n$(video_path)" | egrep -v "*.xml$" | d
 
 [ "$videoname" ] || exit 
 
-VIDEOPATH="$HOME/Videos"
+# VIDEOPATH="$HOME/Videos:$HOME/Videos/screen_videos:$HOME/Videos/film"
+
+for dir in `find Videos`
+do
+	[ -d $dir ] && VIDEOPATH=$dir:$VIDEOPATH
+done
 
 IFS=:
 for p in $VIDEOPATH
@@ -19,8 +24,11 @@ do
 	[ -f "$video" ] && break
 done
 
-mpv_history_url="$HOME/.cache/mpv_history_url"
-mpv_back="$HOME/.cache/mpv_back"
+cachedir="${XDG_CACHE_HOME:-"$HOME/.cache"}"
+mpv_history_url="$cachedir/mpv_history_url"
+mpv_back="$cachedir/mpv_back"
+[ ! -e "$cachedir" ] && mkdir -p "$cachedir"
+
 [ "$videoname" = "Clipboard" ] && video=$(xclip -o) && echo "$video" >> $mpv_history_url
 [ "$videoname" = "Playback" ] && video=$(cat $mpv_back)
 

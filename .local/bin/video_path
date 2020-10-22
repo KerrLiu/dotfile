@@ -11,7 +11,12 @@ cache="$cachedir/video_run"
 
 [ ! -e "$cachedir" ] && mkdir -p "$cachedir"
 
-VIDEOPATH="$HOME/Videos"
+# VIDEOPATH="$HOME/Videos:$HOME/Videos/screen_videos:$HOME/Videos/film"
+
+for dir in `find Videos`
+do
+	[ -d $dir ] && VIDEOPATH=$dir:$VIDEOPATH
+done
 
 IFS=:
 if stest -dqr -n "$cache" $VIDEOPATH; then
