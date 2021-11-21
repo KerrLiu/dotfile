@@ -19,11 +19,6 @@ esac
 
 playnum=$(amixer get 'Master' | awk '/Mono:/ {print $4}')
 playint=$(echo $playnum | sed 's/[],%,[]//g')
-playint=$[$playint/10]
 
-for((i=1;i<=$playint;i++));
-do
-	playline=$playline"—"
-done
 msgid="10086"
-dunstify " $playnum$playline" -r "$msgid"
+dunstify " " -h int:value:$playint -h string:hlcolor:#009966 -r "$msgid"
